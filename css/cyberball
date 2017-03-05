@@ -1,0 +1,287 @@
+html
+{
+    width: 100%;
+}
+
+body
+{
+    text-align: center;
+    width: 100%;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:12px;
+}
+
+#container
+{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    width: 640px;
+	
+	
+}
+
+#divConnectingBox
+{
+    background-color: #0099FF;
+    height: 24px;
+    width: 30px;
+}
+
+#canvas
+{
+    background-color: #ffffff;
+}
+
+#chatWindow
+{
+    float: left;
+    width: 415px;
+    text-align: center;
+    display: none;
+
+}
+
+#chatWindow textarea
+{
+    
+    border:solid 1px #CCCCCC;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+ border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-family: helvetica;
+    font-size: 12px;
+    line-height: 17px;
+    width: 95%;
+	margin-top: 10px;
+
+}
+
+#chatWindow .chatbox
+{
+    width: 73%;
+	
+
+    border:solid 1px #cccccc;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+
+
+}
+
+#insert_text{
+	margin-top: 20px;
+}
+
+#chatWindow a
+{
+    text-decoration: none;
+    width: 83px;
+    height: 22px;
+    background-image: url(../images/Send.png);
+    display: inline-block;
+}
+
+#textAndWindows
+{
+    text-align: center;
+    width: 640px;
+    display: none;
+    position: absolute;
+    top: 10px;
+}
+
+#textAndWindows td
+{
+    margin: 0;
+    padding: 0;
+}
+
+#textAndWindows td div
+{
+    width: 130px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+	
+	margin-left: 15px;
+    margin-top: 30px;
+    
+}
+
+#textAndWindows td span
+{
+    cursor: pointer;
+}
+
+#textAndWindows td img
+{
+    cursor: pointer;
+}
+
+#textAndWindows img
+{
+    border-width: 1px;
+    border-style: solid;
+    border: none;
+}
+
+#instructions
+{
+}
+#thankyou
+{
+    color: #000080;
+    display: none;
+}
+#preloadImages
+{
+    /**/
+    display: none;
+}
+.photo
+{
+    width: 128px;
+    height: 128px;
+}
+
+.smallphoto
+{
+    width: 80px;
+    height: 80px;
+}
+
+.cartoon-1
+{
+    border-width: 2px;
+    border-style: none;
+    border-color: black;
+    margin-top: 57px;
+}
+
+.smallcartoon-3
+{
+    border-width: 2px;
+    border-style: none;
+    border-color: black;
+    margin-top: 2px;
+}
+.smallcartoon-1
+{
+    border-width: 2px;
+    border-style: none;
+    border-color: black;
+    margin-top: 15px;
+}
+
+.cartoon-3
+{
+    border-width: 2px;
+    border-style: none;
+    border-color: black;
+    margin-top: 36px;
+}
+
+.smallcartoon
+{
+    margin: 0;
+}
+
+.fourpl
+{
+    margin: 0;
+    padding: 0;
+}
+
+.name-1
+{
+    left: 100px;
+    position: relative;
+    text-align: right;
+    top: 10px;
+}
+.name-3
+{
+    left: -100px;
+    position: relative;
+    top: 10px;
+}
+
+
+.description{
+	width: 128px;
+	height: 58px;
+	margin-top: 75px !important;
+	margin-left: -20px !important;
+	
+}
+
+
+	
+	
+	.description table td{
+		
+	color:#666;
+	font-size:10px;
+	text-align:right;
+	}
+	
+	
+	
+.description2{
+	width: 128px;
+	height: 58px;
+	margin-top: 75px !important;
+	
+	
+}
+
+
+	
+	
+	.description2 table td{
+		
+	color:#666;
+	font-size:10px;
+	text-align:left;
+	}
+	
+	
+
+
+#user_profile{
+
+    	 display: none;
+
+	 float: left;
+    margin-left: 25px;
+    text-align: left;
+    width: 185px;
+	
+	margin-top: 10px;
+	font-family:Helvetica;
+	
+	
+}
+
+#chat{
+	width: 640px;
+	height:250px;
+	overflow: auto;
+	background-image:url(../images/chat.png);
+	background-repeat:no-repeat;
+	display: none;
+	margin-top: -220px;
+	padding-top: 30px;
+	
+	
+}
+
+#lblPlayerTwoName{
+	color: #06C;
+	font-weight:600;	
+	
+}
